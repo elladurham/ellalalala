@@ -1,0 +1,1 @@
+<link href="<?= \Idno\Core\site()->config()->getDisplayURL() ?>Themes/Ellalalala/css/default.css" rel="stylesheet">
