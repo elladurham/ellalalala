@@ -5,7 +5,7 @@ namespace Themes\Ellalalala\Pages {
             {
                 $t        = \Idno\Core\site()->template();
                 $t->body  = $t->draw('ellalalala/home');
-                $t->title = 'Testing';
+                $t->title = \Idno\Core\site()->config()->getTitle();
                 $t->drawPage();
             }
         }
