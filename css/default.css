@@ -4,11 +4,9 @@ body {
     /*padding-top: 0;*/
     margin-bottom: 5em;
 }
-
-a {
-    color: #666;
+.page-body {
+    margin-top: 75px;
 }
-
 .idno-content {
     box-shadow: none;
     border: none;
@@ -80,4 +78,8 @@ blockquote {
 
 .navbar .nav .dropdown-toggle .caret {
     margin-top: 11px;
+}
+
+.navbar .brand {
+  padding: 0 10px 0 0;
 }
